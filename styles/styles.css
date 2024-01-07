@@ -1,0 +1,162 @@
+* {
+    font-family: "Merriweather", serif, "Inter";
+}
+
+.banner-container {
+    background-image: linear-gradient(
+            180deg,
+            #070211 0%,
+            rgba(7, 2, 17, 0) 100%
+        ),
+        url(../resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+}
+
+.banner-message {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
+
+.banner-wish {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner-event {
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.sale-title {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.sale-line {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.new-year {
+    text-align: center;
+}
+
+.welcome-banner {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+        url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.party-announcement {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    padding: 80px 138px 0px 126px;
+}
+
+.party-welcome {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.party-welcome-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.join-now {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.event-time {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 0, 0, 0.1) 0%,
+        rgba(255, 0, 0, 0) 100%
+    );
+    width: 1320px;
+    height: 482px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.timings span {
+    color: red;
+    font-family: Inter;
+}
+
+.timings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.timings h3 {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Inter;
+    margin: 10px;
+}
+
+.btn-primary {
+    margin-top: 64px;
+    padding: 16px 32px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700px;
+}

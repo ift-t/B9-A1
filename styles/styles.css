@@ -1,5 +1,6 @@
 * {
     font-family: "Merriweather", serif, "Inter";
+    margin: 0;
 }
 
 .banner-container {
@@ -15,6 +16,8 @@
     background-repeat: no-repeat;
     display: block;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 
 .banner-message {
@@ -159,4 +162,237 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 700px;
+}
+
+.new-offer-container {
+    width: 1320px;
+    height: 463px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new-offer-img img {
+    border-radius: 50%;
+    border: 15px solid red;
+    padding: 30px;
+}
+
+.best-offer {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 16px;
+}
+
+.coming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 43px;
+}
+
+.year {
+    color: #f00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.holiday-sale {
+    width: 1320px;
+    height: 986.07px;
+    background-image: url(../resources/Group\ 75.png),
+        url(../resources/Rectangle\ 2.png), url(../resources/Group\ 44.png),
+        url(../resources/Rectangle\ 1.png);
+    background-position: bottom left, bottom, right 28% bottom 40%, right 60%;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.holiday-sale-description {
+    text-align: center;
+}
+
+.functional {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-description span {
+    color: #f00;
+}
+
+.holiday-sale-announcement {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.portfolio {
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    width: 1320px;
+    height: 1163px;
+}
+
+.portfolio img {
+    width: 424px;
+    height: 450px;
+}
+
+.portfolio img:hover {
+    opacity: 0.5;
+}
+
+.portfolio-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.best-gift {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: block;
+    margin: auto;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.newsletter-inputfield input {
+    border-start-start-radius: 60px;
+    border-end-start-radius: 60px;
+    border: none;
+    padding: 25px 477px 25px 30px;
+    height: 50px;
+    width: 150px;
+}
+
+.submit-btn {
+    color: white;
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-start-end-radius: 60px;
+    border-end-end-radius: 60px;
+    font-family: Inter;
+    height: 100px;
+    width: 160px;
+    padding: 24px 56px;
+}
+
+.newsletter-logo {
+    margin-top: 80px;
+}
+
+.subscribe-newsletter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+footer {
+    background: #070211;
+    height: 609px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+
+hr {
+    width: 1300px;
+    height: 1px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+.contacts {
+    display: flex;
+    gap: 50%;
+    margin: 120px;
+    justify-content: center;
+}
+
+.socials {
+    text-align: center;
+    margin: 48px;
+}
+
+.socials img {
+    margin: 10px;
+}
+
+.rights {
+    display: flex;
+    gap: 50%;
+    justify-content: center;
+}
+
+.rights a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials,
+.rights {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }

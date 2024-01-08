@@ -418,3 +418,11 @@ hr {
     justify-content: center;
     height: 50vh;
 }
+
+.call {
+    padding-right: 10px;
+}
+
+.website {
+    padding-right: 10px;
+}

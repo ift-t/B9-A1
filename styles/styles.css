@@ -1,5 +1,5 @@
 * {
-    font-family: "Merriweather", serif, "Inter";
+    font-family: "Merriweather", "Inter", serif;
     margin: 0;
 }
 
@@ -50,6 +50,7 @@
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
+    margin-bottom: 48px;
 }
 
 .sale-line {
@@ -66,7 +67,8 @@
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 0;
+    margin-top: 16px;
+    margin-bottom: 48px;
 }
 
 .new-year {
@@ -190,7 +192,8 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin: 16px;
+    margin: 0;
+    margin-bottom: 16px;
 }
 
 .coming-soon {
@@ -198,7 +201,8 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    margin: 16px;
+    margin: 0;
+    margin-bottom: 22px;
 }
 
 .offer-description {
@@ -206,8 +210,11 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    margin: 0;
-    margin-bottom: 43px;
+    margin-bottom: 48px;
+}
+
+.new-offer {
+    width: 393px;
 }
 
 .year {
@@ -299,6 +306,7 @@
     background: rgba(255, 0, 0, 0.05);
     display: block;
     margin: auto;
+    margin-bottom: 120px;
 }
 
 .newsletter-container {
@@ -309,13 +317,18 @@
     height: 50vh;
 }
 
+.newsletter-inputfield {
+    display: flex;
+}
+
 .newsletter-inputfield input {
     border-start-start-radius: 60px;
     border-end-start-radius: 60px;
     border: none;
-    padding: 25px 477px 25px 30px;
-    height: 50px;
-    width: 150px;
+    padding: 25px 480px 25px 30px;
+    height: 25px;
+    width: 160px;
+    font-family: Inter;
 }
 
 .submit-btn {
@@ -326,8 +339,11 @@
     border-start-end-radius: 60px;
     border-end-end-radius: 60px;
     font-family: Inter;
-    height: 100px;
-    width: 160px;
+    height: 75px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
     padding: 24px 56px;
 }
 
@@ -347,11 +363,13 @@ footer {
     background: #070211;
     height: 609px;
     color: #fff;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px; /* 166.667% */
+}
+
+.end {
+    display: block;
+    margin: auto;
+    width: 1320px;
+    height: 600px;
 }
 
 hr {
@@ -362,26 +380,13 @@ hr {
     border: none;
 }
 
-.contacts {
-    display: flex;
-    gap: 50%;
-    margin: 120px;
-    justify-content: center;
-}
-
-.socials {
-    text-align: center;
-    margin: 48px;
-}
-
 .socials img {
     margin: 10px;
 }
 
 .rights {
     display: flex;
-    gap: 50%;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .rights a {
@@ -389,10 +394,27 @@ hr {
     color: white;
 }
 
-.socials,
-.rights {
+.contact-flexbox {
+    display: flex;
+    gap: 50%;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.address-text {
     color: #fff;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+}
+
+.end-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
 }
